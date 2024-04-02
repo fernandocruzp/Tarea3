@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8C0C6EF8"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:text="Registro"
+        android:textColor="@color/title_color"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Nombre Completo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edit_text_student_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Número de Cuenta"
+        android:inputType="number" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Carrera"
+        android:textColor="@color/text_color"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/grupo_radiobutton_carreras"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkbox_ciencias_computacion"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_marginBottom="8dp"
+                android:text="Ciencias de la Computación"
+                android:textColor="@color/text_color" />
+
+            <CheckBox
+                android:id="@+id/checkbox_matematicas"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginBottom="8dp"
+                android:text="Matemáticas"
+                android:textColor="@color/text_color" />
+
+            <CheckBox
+                android:id="@+id/checkbox_actuaria"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_marginBottom="8dp"
+                android:text="Actuaría"
+                android:textColor="@color/text_color" />
+
+            <CheckBox
+                android:id="@+id/checkbox_fisica"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_marginBottom="16dp"
+                android:text="Física"
+                android:textColor="@color/text_color" />
+
+        </RadioGroup>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="16dp"
+            android:text="Registrar Alumno"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>
