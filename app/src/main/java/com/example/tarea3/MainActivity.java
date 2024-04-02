@@ -12,5 +12,6 @@ public class MainActivity extends AppCompatActivity {
         //Registro alumno
         setContentView(R.layout.activity_main);
         //Registro tutoría
+        //setContentView(R.layout.registro_tutoria);
     }
 }
