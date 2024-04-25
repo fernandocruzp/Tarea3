@@ -13,6 +13,21 @@
         android:theme="@style/Theme.Tarea3"
         tools:targetApi="34">
         <activity
+            android:name=".Notas"
+            android:exported="false" />
+        <activity
+            android:name=".RevisarTutorias"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
+            android:name=".InicioSesion"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroTutorias"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

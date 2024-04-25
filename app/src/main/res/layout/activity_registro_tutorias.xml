@@ -73,7 +73,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Registrar Tutoría"
+        android:background="@drawable/botones"
         android:textColor="@android:color/white" />
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ima" />
 
 </LinearLayout>

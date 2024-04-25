@@ -95,6 +95,7 @@
         </ScrollView>
 
         <Button
+            android:id="@+id/boton_regisgtrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="200dp"
