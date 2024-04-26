@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Notas">
+
+    <group
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/listar"
+            android:icon="@drawable/buscar"
+            android:title="ver"/>
+
+        <item
+            android:id="@+id/nueva"
+            android:icon="@drawable/nueva"
+            android:title="Agregar"/>
+
+
+    </group>
+
+</menu>

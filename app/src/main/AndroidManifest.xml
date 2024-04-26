@@ -19,7 +19,7 @@
             android:name=".RevisarTutorias"
             android:exported="false" />
         <activity
-            android:name=".Menu"
+            android:name=".MenuPrincipal"
             android:exported="false" />
         <activity
             android:name=".InicioSesion"

@@ -22,7 +22,7 @@ public class InicioSesion extends AppCompatActivity {
         btnInicio.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(InicioSesion.this,Menu.class);
+                Intent intent = new Intent(InicioSesion.this, MenuPrincipal.class);
                 Toast.makeText(InicioSesion.this,"BIenvenido",Toast
                         .LENGTH_SHORT);
                 startActivity(intent);

@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#8C0C6EF8"
     android:orientation="vertical"
     android:padding="16dp">
@@ -93,7 +94,7 @@
         android:id="@+id/boton_regisgtrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="200dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="16dp"
         android:text="Registrar Alumno"
         android:textColor="@android:color/white" />

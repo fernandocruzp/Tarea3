@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Menu extends AppCompatActivity {
+public class MenuPrincipal extends AppCompatActivity {
     Button registro, revisar, notas;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,21 +20,21 @@ public class Menu extends AppCompatActivity {
         registro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Menu.this,RegistroTutorias.class);
+                Intent intent = new Intent(MenuPrincipal.this,RegistroTutorias.class);
                 startActivity(intent);
             }
         });
         revisar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Menu.this,RevisarTutorias.class);
+                Intent intent = new Intent(MenuPrincipal.this,RevisarTutorias.class);
                 startActivity(intent);
             }
         });
         notas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Menu.this,Notas.class);
+                Intent intent = new Intent(MenuPrincipal.this,Notas.class);
                 startActivity(intent);
             }
         });
